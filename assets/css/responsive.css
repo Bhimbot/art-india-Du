@@ -1,0 +1,1205 @@
+/*---- Responsive CSS Start ----*/
+@media (max-width: 1440px) {
+    .mian_img_conainer .inner_box .main_text p{
+        color: #ffffff;
+        font-size: 13px;
+    }
+    .inner_box .main_text h1{
+        font-size: 1.5rem;
+    }
+    .headr_text p, a, li {
+        font-size: 16px;
+    }
+    .product_conttainer h1 {
+        font-size: 50px;
+    }
+    .container_text_div h5 {
+        font-size: 15px;
+    }
+    .container_text_div p {
+        font-size: 16px;
+    }
+    .lo_cross a {
+        position: absolute;
+        left: 85%;
+        top: 5%;
+        font-size: 65px;
+        z-index: 1;
+    }
+    .lo_cross a {
+        position: absolute;
+        left: 85%;
+        top: 6%;
+        font-size: 31px;
+        z-index: 1;
+    }
+    .lo_crossss{
+            position: absolute;
+            left: 85%;
+            top: 10%;
+            font-size: 80px;
+            z-index: 1;
+    }
+    
+}
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 1024px) {
+    .center_logo{
+        width: 120px;
+        margin-left: -160px;
+    }
+    .clo_nav .left_text>ul{
+        display: none;
+    }
+    .box_container {
+        padding: 0 0 0 0;
+    }
+    .clo_nav {
+        justify-content: space-between;
+        padding: 25px;
+    }
+    .main_banner_art {
+        padding-top: 100px;
+    }
+
+    .menu_open {
+        display: flex;
+        z-index: 999;
+    }
+    .phone_menu.clicked{
+        display: flex;
+        text-align: left;
+    }
+
+    .clo_nav {
+        justify-content: space-between;
+    }
+
+    .product_conttainer p {
+        width: 80%; 
+    }
+
+    .headr_text {
+        padding: 20px 10px 30px 10px;;
+    }
+    .mian_img_conainer .inner_box:hover .main_text{
+        top: 30%;
+    }
+    .mian_img_conainer .inner_box .main_text h1 {
+        color: #ffffff;
+        font-size: 15px;
+    }
+    .mian_img_conainer .inner_box .main_text p {
+        color: #ffffff;
+        font-size: 13px;
+    }
+    .phone_menu .sidebar-nav {
+        position: fixed;
+        background-color: #ffffff;
+        height: 100%;
+        font-weight: 400;
+        font-size: 1.2em;
+        overflow: auto;
+        padding-bottom: 6em;
+        z-index: 9;
+        overflow: hidden;
+        width: 100%;
+        -webkit-overflow-scrolling: touch;
+    }
+    .phone_menu .sidebar {
+        width: 50%;
+        /* transition: 2s; */
+    }
+    .phone_menu .sidebar header {
+        padding: 2.1em 1em;
+    }
+    .lo_cross a {
+        top: 20%;
+    }
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 768px) {
+    .main_form {
+
+        width: 100%;
+    }
+    .contact_text_form {
+        padding: 130px 0 50px 0;
+    }
+    .lo_cross a {
+        top: 5%;
+    }
+    
+    .phone_menu .sidebar {
+        width: 50%;
+    }
+    .phone_menu .sidebar header {
+
+        padding: 2.1em 1em;
+    }
+    .phone_menu .sidebar header {
+        background-color: #ffdae2;
+        width: 100%;
+        display: block;
+        padding: 1.75em 1em;
+    }
+    .clo_nav .left_text>ul{
+        display: none;
+    }
+    .right_button .search_right {
+        display: flex;
+        width: 50px;
+        /* border-radius: none; */
+    }
+
+    .clo_nav .right_button form {
+        display: none;
+    }
+
+    .clo_nav .right_button>ul.clicked {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .art_banner .text_contianer h1 {
+        font-size: 70px;
+    }
+
+    .art_banner .text_contianer h2 {
+        font-size: 50px;
+    }
+
+    .art_banner .text_contianer h3 {
+        font-size: 40px;
+    }
+
+    .art_banner .text_contianer .btn_class {
+        height: 50px;
+    }
+
+    .art_banner .text_contianer h1 {
+        font-size: 60px;
+    }
+
+    .art_banner .text_contianer h2 {
+        font-size: 40px;
+    }
+
+    .art_banner .text_contianer h3 {
+        font-size: 20px;
+    }
+
+    .art_banner .img_container img {
+        width: 100%;
+        height: 194px;
+        object-fit: cover;
+    }
+
+    .box_container {
+        padding: 0 0 0 0;
+    }
+
+    .art_banner .text_contianer .btn_class {
+        height: 40px;
+        width: 50%;
+        font-size: 17px;
+    }
+
+    .product_conttainer h1 {
+        font-family: "Comic Neue", cursive;
+        font-size: 50px;
+    }
+
+    .product_conttainer p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .inner_div_text {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .product_conttainer {
+        padding-top: 30px;
+    }
+
+    .container_text_div {
+        padding: 12px;
+    }
+
+    .container_text_div p {
+        font-size: 12px;
+    }
+
+    .container_text_div h5 {
+        font-size: 18px;
+    }
+
+    .main_banner_art .owl-dots .owl-dot span {
+        width: 60px;
+        height: 5px;
+    }
+
+    .headr_text p,
+    a,
+    li {
+        font-size: 17px;
+    }
+
+    .headr_text .profile-image img {
+        height: 150px;
+    }
+
+    .headr_text .profile-text {
+        column-gap: 30px;
+    }
+
+    .feedback_testimonal {
+        padding: 0 50px 100px 50px;
+    }
+
+    .headr_text .btn_class {
+        width: 150px;
+    }
+
+    .video_box_container .text_container h1 {
+        font-size: 45px;
+    }
+
+    .video_box_container .text_container input {
+        width: 50%;
+        ;
+    }
+
+    .text_container .btn_class {
+        width: 20%;
+    }
+
+    .art_banner .img_container img {
+        height: 350px;
+    }
+    .heading_text_events {
+        padding: 250px 0 200px 0;
+    }
+    .heading_text_events h1{
+       font-size: 25px;
+    }
+    
+    
+}
+
+@media (max-width: 576px) {
+    .mian_img_conainer .inner_box:hover .main_text {
+        top: 50%;
+    }
+    .main_form .art_left_form .art_text h2, .main_form .art_right_form h2 {
+        width: 100%;
+        font-size: 23px;
+    }
+    .main_form .art_right_form {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .main_form .art_left_form .art_text p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .main_form {
+        width: 100%;
+        padding: 30px;
+        flex-direction: column;
+    }
+    .main_form .art_left_form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .heading_text_events {
+        padding: 150px 0 100px 0;
+        text-align: center;
+        text-align: center;
+    }
+    .heading_text_events h1{
+        font-size: 15px;
+    }
+    .img_inner_div:hover .container_text_div {
+        bottom: 0%;
+        right: 0;
+        left: 0;
+    }
+    .phone_menu .sidebar header {
+        background-color: #ffdae2;
+        width: 100%;
+        display: block;
+        padding: 1.75em 1em;
+    }
+    .clo_nav .right_button ul li {
+        width: 35px;
+        height: 35px;
+    }
+    .clo_nav .right_button ul li img {
+        width: 23px;
+    }
+    .art_insta_sec {
+        background-color: #ffffff;
+        margin: 0 0 0 0;
+    }
+    .headr_text .profile-text {
+        flex-direction: column;
+    }
+    .headr_text {
+        flex-direction: column;
+    }
+    /* .headr_text .profile-image img {
+        height: 100%;
+    } */
+    .headr_text .btn_class {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .headr_text .profile_user_text ul {
+        column-gap: 40px;
+    }
+    .headr_text p, a, li {
+        font-size: 12px;
+    }
+    .footer_p {
+        font-size: 12px;
+    }
+    .clo_nav .right_button ul li {
+        width: 33px;
+        height: 33px;
+    }
+    .menu_open {
+        width: 25px;
+        height: 25px;
+    }
+    .right_button .search_right {
+        width: 25px;
+    }
+    .right_button .mu_own_class{
+        width:33px;
+        height: 33px;
+        border-radius: none !important;   
+    }
+    .center_logo {
+        width: 120px;
+        margin-left: -40px;
+    }
+    .main_banner_art {
+        padding-top: 85px;
+    }
+    .art_banner .text_contianer h3 {
+        padding-bottom: 5px;
+    }
+    .art_banner .text_contianer h1 {
+        font-size: 23px;
+    }
+    .art_banner .text_contianer h2 {
+        font-size: 30px;
+    }
+    .art_banner .text_contianer .btn_class {
+        height: 25px;
+        width: 45%;
+        font-size: 12px;
+    }
+    .art_banner .img_container img {
+        height: 230px;
+    }
+    .main_banner_art .owl-dots .owl-dot span {
+        width: 50px;
+        height: 3px;
+    }
+    .menu_open {
+        width: 33px;
+        height: 33px;
+    }
+    .product_conttainer p {
+        font-size: 12px;
+        width: 100%;
+    }
+    .product_conttainer h1 {
+        font-family: "Comic Neue", cursive;
+        font-size: 23px;
+    }
+    .product_conttainer p {
+        font-size: 13px;
+        width: 100%;
+    }
+    .phone_menu .sidebar {
+        width: 100%;
+    }
+    .login_form .img-fluid{
+        display: none;
+    }   
+    .lo_cross a {
+        position: absolute;
+        left: 80%;
+        top: 13%;
+        font-size: 60px;
+        z-index: 1;
+    }
+}
+
+/* Media Query */
+
+@media screen and (max-width: 40rem) {
+    
+    .clo_nav .center_logo {
+        width: 80px;
+    }
+
+    .clo_nav .left_text>ul>li {
+        font-size: 12px;
+    }
+
+    .clo_nav .left_text>ul {
+        column-gap: 20px;
+    }
+
+
+
+    .feed_back_text {
+        text-align: center;
+        padding: 40px 0 10px 0;
+    }
+
+    .feed_back_text h1 {
+        font-size: 39px;
+    }
+
+    .text_container .btn_class {
+        width: 25%;
+        height: 25px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .video_box_container .text_container h1 {
+        font-size: 17px;
+    }
+
+    .video_box_container {
+        height: 170px;
+    }
+
+    .video_box_container .text_container {
+        row-gap: 0px;
+    }
+
+    .feed_back_text h2 {
+        font-size: 25px;
+    }
+
+    .feedback_testimonal {
+        padding: 0 50px 20px 50px;
+    }
+
+    .art_footer {
+        padding: 50px 0 50px 0;
+        line-height: initial;
+    }
+
+    .art_footer ul li a {
+        font-size: 10px;
+    }
+
+    .art_footer .box img {
+        width: 70px;
+    }
+    .about_section_art {
+        padding-top: 150px;
+    }
+    .about_section_art .img_sec h1 {
+        font-size: 40px;
+    }
+    .about_section_art .img_sec img {
+        border-radius: 50% 50% 0 0;
+        padding-top: 50px;
+        height: 100%;
+        width: 200px;
+    }
+    .about_section_art .img_sec p {
+        font-size: 13px;
+    }
+    .about_section_art .text_container p {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .customized_order {
+        padding: 150px 0 100px 0;
+    }
+    .customized_order .heading_text h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .customized_order .paragrapg_text p {
+        font-size: 15px;
+    }
+    .terms_conditions .h1_tag h1 {
+        color: #ff5a7e;
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+        /* margin: 0 auto; */
+        font-family: 'Times New Roman', Times, serif;
+        border-bottom: 2px solid black;
+    }
+    .terms_conditions {
+        padding-top: 150px;
+    }
+    .terms_conditions .p_all_tag p {
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 20px;
+    }
+    .privacyPolicy .heading_content h1 {
+        font-size: 30px;
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+    .privacyPolicy {
+        padding-top: 150px;
+    }
+    .privacyPolicy .paragraph_content p {
+        font-size: 15px;
+        font-weight: 600;
+        color: #8b6169;
+        padding-top: 20px;
+    }
+    .container_head {
+        padding-top: 150px;
+    }
+    .container_head .haiding_tag h1 {
+        width: 80%;
+        font-size: 30px;
+    }
+    .container_head .paragrap p {
+        font-size: 15px;
+    }
+}
+
+/* Spinner Animation */
+
+@keyframes loader {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.product-grid4,
+.product-grid4 .product-image4 {
+    position: relative
+}
+
+.product-grid4 {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+    transition: all .3s ease 0s
+}
+
+.product-grid4:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2)
+}
+
+.product-grid4 .product-image4 a {
+    display: block
+}
+
+.product-grid4 .product-image4 img {
+    width: 100%;
+    height: auto
+}
+
+.product-grid4 .pic-1 {
+    opacity: 1;
+    transition: all .5s ease-out 0s
+}
+
+.product-grid4:hover .pic-1 {
+    opacity: 0
+}
+
+.product-grid4 .pic-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .5s ease-out 0s
+}
+
+.product-grid4:hover .pic-2 {
+    opacity: 1
+}
+
+.product-grid4 .social {
+    width: 180px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s ease 0s
+}
+
+.product-grid4 .social li {
+    display: inline-block;
+    opacity: 0;
+    transition: all .7s
+}
+
+.product-grid4 .social li:nth-child(1) {
+    transition-delay: .15s
+}
+
+.product-grid4 .social li:nth-child(2) {
+    transition-delay: .3s
+}
+
+.product-grid4 .social li:nth-child(3) {
+    transition-delay: .45s
+}
+
+.product-grid4:hover .social li {
+    opacity: 1
+}
+
+.product-grid4 .social li a {
+    color: #222;
+    background: #fff;
+    font-size: 17px;
+    line-height: 36px;
+    width: 40px;
+    height: 36px;
+    border-radius: 2px;
+    margin: 0 5px;
+    display: block;
+    transition: all .3s ease 0s
+}
+
+.product-grid4 .social li a:hover {
+    color: #fff;
+    background: #16a085
+}
+
+.product-grid4 .social li a:after,
+.product-grid4 .social li a:before {
+    content: attr(data-tip);
+    color: #fff;
+    background-color: #000;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 3px;
+    padding: 0 5px;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: -30px
+}
+
+.product-grid4 .social li a:after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 0;
+    transform: translateX(-50%) rotate(45deg);
+    top: -22px;
+    z-index: -1
+}
+
+.product-grid4 .social li a:hover:after,
+.product-grid4 .social li a:hover:before {
+    opacity: 1
+}
+
+.product-grid4 .product-discount-label,
+.product-grid4 .product-new-label {
+    color: #fff;
+    background-color: #16a085;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 45px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    transition: all .3s
+}
+
+.product-grid4 .product-discount-label {
+    left: auto;
+    right: 10px;
+    background-color: #d7292a
+}
+
+.product-grid4:hover .product-new-label {
+    opacity: 0
+}
+
+.product-grid4 .product-content {
+    padding: 25px
+}
+
+.product-grid4 .title {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0 0 7px;
+    transition: all .3s ease 0s
+}
+
+.product-grid4 .title a {
+    color: #222
+}
+
+.product-grid4 .title a:hover {
+    color: #16a085
+}
+
+.product-grid4 .price {
+    color: #16a085;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 2px 15px 0;
+    display: block
+}
+
+.product-grid4 .price span {
+    color: #909090;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: line-through;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block
+}
+
+.product-grid4 .add-to-cart {
+    border: 1px solid #e5e5e5;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #888;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: all .3s
+}
+
+.product-grid4:hover .add-to-cart {
+    border: 1px solid transparent;
+    background: #16a085;
+    color: #fff
+}
+
+.product-grid4 .add-to-cart:hover {
+    background-color: #505050;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5)
+}
+
+@media only screen and (max-width:576px) {
+    .instagram_feed {
+        margin: 0 0 0 0 ;
+    }
+    
+}
+@media only screen and (max-width:990px) {
+    .product-grid4 {
+        margin-bottom: 30px
+    }
+}
+/* instagra, feed */
+/*
+
+All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 310). 
+        
+The 'supports' rule will only run if your browser supports CSS grid.
+
+Flexbox and floats are used as a fallback so that browsers which don't support grid will still recieve a similar layout.
+
+*/
+
+/* Base Styles */
+
+:root {
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.instagram_feed {
+    font-family: "Open Sans", Arial, sans-serif;
+    /* min-height: 100vh; */
+    color: #262626;
+    background-color: #ffffff;
+    padding-top: 50px;
+    /* padding-bottom: 3rem; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+
+    
+}
+
+.instagram_feed img {
+    display: block;
+}
+
+.instagram_feed  .container {
+    background-color: #fafafa;
+    max-width: 93.5rem;
+    /* margin: 0 auto; */
+    padding: 0 300px 0 300px;
+    padding: 0 2rem;
+}
+
+.instagram_feed .btn {
+    display: inline-block;
+    font: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+
+.instagram_feed  .btn:focus {
+    outline: 0.5rem auto #4d90fe;
+}
+
+.instagram_feed  .visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Profile Section */
+
+.instagram_feed  .profile {
+    padding: 5rem 0;
+}
+
+.instagram_feed  .profile::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.instagram_feed .profile-image {
+    float: left;
+    width: calc(33.333% - 1rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.instagram_feed  .profile-image img {
+    border-radius: 50%;
+}
+
+.instagram_feed  .profile-user-settings,
+.profile-stats,
+.profile-bio {
+    float: left;
+    width: calc(66.666% - 2rem);
+}
+
+.instagram_feed  .profile-user-settings {
+    margin-top: 1.1rem;
+}
+
+.instagram_feed .profile-user-name {
+    display: inline-block;
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+.instagram_feed .profile-edit-btn {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    border: 0.1rem solid #dbdbdb;
+    border-radius: 0.3rem;
+    padding: 0 2.4rem;
+    margin-left: 2rem;
+}
+
+.instagram_feed .profile-settings-btn {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.instagram_feed .profile-stats {
+    margin-top: 2.3rem;
+}
+
+.instagram_feed .profile-stats li {
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.instagram_feed .profile-stats li:last-of-type {
+    margin-right: 0;
+}
+
+.instagram_feed .profile-bio {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 2.3rem;
+}
+
+.instagram_feed .profile-real-name,
+.profile-stat-count,
+.profile-edit-btn {
+    font-weight: 600;
+}
+
+/* Gallery Section */
+
+.instagram_feed .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem -1rem;
+    padding-bottom: 3rem;
+}
+
+.instagram_feed .gallery-item {
+    position: relative;
+    flex: 1 0 22rem;
+    margin: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.instagram_feed .gallery-item:hover .gallery-item-info,
+.gallery-item:focus .gallery-item-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.instagram_feed .gallery-item-info {
+    display: none;
+}
+
+.instagram_feed .gallery-item-info li {
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.instagram_feed .gallery-item-likes {
+    margin-right: 2.2rem;
+}
+
+.instagram_feed .gallery-item-type {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.instagram_feed .fa-clone,
+.fa-comment {
+    transform: rotateY(180deg);
+}
+
+.instagram_feed .gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Loader */
+
+/* Media Query */
+
+@media screen and (max-width: 40rem) {
+    .instagram_feed .profile {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4rem 0;
+    }
+
+    .instagram_feed .profile::after {
+        display: none;
+    }
+
+    .instagram_feed .profile-image,
+    .profile-user-settings,
+    .profile-bio,
+    .profile-stats {
+        float: none;
+        width: auto;
+    }
+
+    .instagram_feed .profile-image img {
+        width: 7.7rem;
+    }
+
+    .instagram_feed .profile-user-settings {
+        flex-basis: calc(100% - 10.7rem);
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+
+    .instagram_feed .profile-user-name {
+        font-size: 2.2rem;
+    }
+
+    .instagram_feed .profile-edit-btn {
+        order: 1;
+        padding: 0;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .instagram_feed .profile-edit-btn {
+        margin-left: 0;
+    }
+
+    .profile-bio {
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+    }
+
+    .instagram_feed .profile-edit-btn,
+    .profile-bio,
+    .profile-stats {
+        flex-basis: 100%;
+    }
+
+    .instagram_feed .profile-stats {
+        order: 1;
+        margin-top: 1.5rem;
+    }
+
+    .instagram_feed .profile-stats ul {
+        display: flex;
+        text-align: center;
+        padding: 1.2rem 0;
+        border-top: 0.1rem solid #dadada;
+        border-bottom: 0.1rem solid #dadada;
+    }
+
+    .instagram_feed .profile-stats li {
+        font-size: 1.4rem;
+        flex: 1;
+        margin: 0;
+    }
+
+    .instagram_feed .profile-stat-count {
+        display: block;
+    }
+}
+
+/* Spinner Animation */
+
+@keyframes loader {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*
+
+The following code will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling. 
+
+*/
+
+@supports (display: grid) {
+    .instagram_feed .profile {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(3, auto);
+        grid-column-gap: 3rem;
+        align-items: center;
+    }
+
+    .instagram_feed .profile-image {
+        grid-row: 1 / -1;
+    }
+
+    .instagram_feed .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+        grid-gap: 2rem;
+    }
+
+    .instagram_feed .profile-image,
+    .profile-user-settings,
+    .profile-stats,
+    .profile-bio,
+    .gallery-item,
+    .gallery {
+        width: auto;
+        margin: 0;
+    }
+
+    @media (max-width: 40rem) {
+        .instagram_feed.profile {
+            grid-template-columns: auto 1fr;
+            grid-row-gap: 1.5rem;
+        }
+
+        .instagram_feed.profile-image {
+            grid-row: 1 / 2;
+        }
+
+        .instagram_feed .profile-user-settings {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-gap: 1rem;
+        }
+
+        .instagram_feed.profile-edit-btn,
+        .profile-stats,
+        .profile-bio {
+            grid-column: 1 / -1;
+        }
+
+        .instagram_feed.profile-user-settings,
+        .profile-edit-btn,
+        .profile-settings-btn,
+        .profile-bio,
+        .profile-stats {
+            margin: 0;
+        }
+    }
+}
+/* iocghnrgerah */
